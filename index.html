@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<HTML lang="ru">
+    <head>
+        <title> Портфолио </title>
+        <meta http-equiv="Content Type" content="text/html;charset=UTF-8"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./menu.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" media="all" href="./needs/animate.css">
+        
+        <script src="./wow.min.js"></script>
+        <script>new WOW().init();</script>
+    </head>
+    <body>
+        <div class="dropdown">
+            <button class="dropbtn">Контакты</button>
+            <div class="dropdown-content">
+              <a target="_blank" href="https://vk.com/captain_md">Vkontakte</a>
+              <a target="_blank" href="mailto:bluesky171@mail.ru">Email</a>
+              <a target="_black" href="https://api.whatsapp.com/send?phone=79992187483&text=">Whats'app</a>
+            </div>
+        </div>
+
+
+
+        <div class="container_main_page">
+            <div class="fadeInLeft animated" >
+                <div class="main_text">Привет,меня зовут <span class="name">Денис</span>.<br/></div>
+            </div>
+            <div class="fadeInRight animated"><span class="main_text">Я начинающий веб-разработчик.</span></div>
+            <div class="button_active">
+                <button class="main_button"><a class="sticky_arrow" href="#hello">View my work</a></button>
+                <a href="#" target="_black">
+                    <img class="arrow _anim-items _anim-no-hide" src="./arrow1.png" alt="#">
+                </a>
+                
+            </div>
+            
+        </div>
+
+        <div class="conteiner_icons">
+            <div class="img_icons">
+                <div class="img_animate _anim-items _anim-no-hide">
+                    <img src="./fondom.png" height="200" width="200" alt="#" class="">
+                    
+                </div>
+                <div class="img_animate1 _anim-items _anim-no-hide">
+                    <img src="./background1.jpg" height="200" width="200" alt="#" class="">
+                    
+                </div>
+                <div class="img_animate2 _anim-items _anim-no-hide">
+                    <img src="./background_024.jpg" height="200" width="200" alt="#" class="">
+                    
+                </div>
+                
+            </div>
+            <div class="my_info ">
+                <button class="button_myinfo _anim-items _anim-no-hide"><a class="aboutme_decor" href="#hello">About me</a></button>
+                <img class="arrow1 _anim-items _anim-no-hide" src="./arrow1.png" alt="#">
+            </div>
+
+        </div>
+        <div class="conteiner_aboutme">
+            <div class="about_box">
+                <div class="about1">
+                    <p class="text_anim_to_right _anim-items _anim-no-hide">
+                        Технологии
+                    </p>
+                <div class="list_animate_teh _anim-items _anim-no-hide">
+                    <ol>JavaScript</ol>
+                    <ol>HTML</ol>
+                    <ol>CSS</ol>
+                    <ol>Figma</ol>
+                    <ol>Git</ol>
+                    <img class="js_icon _anim-items _anim-no-hide" src="./js.png" alt="">
+                    <img class="html _anim-items _anim-no-hide" src="./html.png" alt="">
+                    <img class="css _anim-items _anim-no-hide" src="./css.png" alt="">
+                </div>
+                </div>
+                <div class="line _anim-items _anim-no-hide"></div>
+                <div class="about2">
+                    <p class="text_anim_to_left _anim-items _anim-no-hide">
+                        Образование
+                    </p>
+                <div class="list_animate _anim-items _anim-no-hide">
+                    <ol>Институт среднего технического образования</ol>
+                    <ol>Год выпуска: 2019 </ol>
+                    <ol>Специальность: Техник-программист</ol>
+                    <ol>Средний балл: 4,4 </ol>
+                    <img class="ispo _anim-items _anim-no-hide" src="./pn.png" alt="#">
+                </div>
+                </div>
+
+            </div>
+
+            
+      
+        </div>
+
+
+        <script type="text/javascript">
+            jQuery.noConflict();
+            jQuery(function() {
+                jQuery('a[href*=#]:not([href=#])').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                        var target = jQuery(this.hash);
+                        target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
+                        if (target.length) {
+                            jQuery('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1900);
+                            return false;
+                        }
+                    }
+                });
+            });
+            
+        </script>
+        <div class="bottom_text">
+            <p name="hello"></p>
+        </div>
+        <script src="./my_js.js"></script>
+    </body>
+
+</HTML>
