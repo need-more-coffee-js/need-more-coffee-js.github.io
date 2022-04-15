@@ -235,7 +235,7 @@ body{
 
 .js_icon._active{
     transition: all 2s ease 3s;
-    transform: translateX(11em);
+    transform: translateX(9 em);
     opacity: 1;
 }
 .html{
